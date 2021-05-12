@@ -1,0 +1,178 @@
+/*Paleta de colores*/
+.colores{
+    /*Principal:*/ color: #123ddd
+    /*Complementario:*/ #ddb212
+   /*Triadico:*/ #dd12a3 #ddb212 #12dd4c
+   /*Analogo:*/ #4c12dd #b212dd #dd12a3 #dd123d #dd4c12
+   /*Sombras:*/ #1035c1 #0e2ea6 #0b268a #091e6e #071753
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*Barra Navegación*/
+nav{
+    background-color: #2600e5;
+}
+
+nav a{
+    color: #ffffff !important;
+    opacity: 0.9;
+}
+
+.navbar-brand{
+    font-size: 32px;
+    font-family: 'Oswald';
+    font-weight: bold;
+}
+
+/*Hero-Section*/
+
+#hero-section{
+    background: url(../img/bg_hero.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    /*Size Cover: Ocupa todo el espacio
+    Position Left: mueve la imagen*/
+    background-size: cover;
+    background-position: center;
+    /*Position relative (Padre)*/
+    position: relative;
+}
+
+#hero-section div{
+    /*Position absolute: Para poder mover la imagen segun el relative del padre*/
+    position: absolute;
+    margin-left: 1rem;
+    bottom: 2.5rem;
+    width: 100%;
+}
+
+#hero-section hr{
+    width: 350px;
+    height: 2px !important;
+    opacity: inherit;
+}
+
+#hero-section h1{
+    font-size: 72px;
+    font-family: 'Oswald';
+}
+
+#hero-section h1:first-child{
+    font-weight: 300 !important;
+}
+
+#hero-section h1:last-child{
+    font-weight: bold !important;
+}
+
+@media (max-width: 572px){
+    #hero-section h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    #hero-section hr{
+        width: 200px;
+        margin: 1rem auto;
+    }
+    #hero-section{
+        background-position: right;
+    }
+}
+
+/*Sobre-mi*/
+
+#sobre-mi{
+    color: #071753;
+}
+
+#sobre-mi hr{
+    width: 300px;
+    height: 2px !important;
+    color: #071753 !important;
+    opacity: 0.8;
+    margin: 1rem auto;
+}
+
+#sobre-mi h4, #sobre-mi div:last-child{
+    font-family: 'Open Sans';
+    line-height: 2;
+}
+
+#sobre-mi h4{
+    font-weight: 600;
+}
+
+/*Experiencias*/
+#experiencias h1{
+    font-weight: bold !important;
+}
+
+#experiencias h4{
+    font-weight: bold !important;
+}
+
+#experiencias i{
+    color: #2600e5;
+}
+
+#experiencias div hr{
+    width: 300px;
+    height: 2px !important;
+    color: #071753 !important;
+    opacity: 0.8;
+    margin: 1rem auto;
+}
+
+/*Trabajos*/
+#trabajos{
+    background-color: #2600e5;
+}
+
+#trabajos hr{
+    width: 300px;
+    height: 2px !important;
+    opacity: 0.8;
+    margin: 1rem auto;
+}
+
+#trabajos h1{
+    font-size: 48px;
+    font-weight: bold !important;
+    font-family: 'Oswald';
+}
+
+#trabajos h4{
+    font-family: 'Oswald';
+}
+
+/*Contacto*/
+
+#contacto div h1{
+    font-size: 48px;
+    font-weight: bold !important;
+    font-family: 'Oswald';
+}
+
+#contacto div hr{
+    width: 300px;
+    height: 2px !important;
+    opacity: 0.8;
+    margin: 1rem auto;
+}
+
+/*Footer*/
+footer{
+    background-color: #2600e5;
+}
+
+footer h1{
+    font-size: 48px;
+    font-weight: bold !important;
+    font-family: 'Oswald';
+}
+
+
